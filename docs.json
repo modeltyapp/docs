@@ -1,132 +1,128 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Modelty Docs",
+  "name": "Modelty",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://modelty.app"
+  },
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#7C3AED",
     "light": "#A78BFA",
-    "dark": "#5B21B6"
+    "dark": "#5B21B6",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#0F0F0F"
+    }
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Platform",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Products",
-            "pages": [
-              "products/overview",
-              "products/oruon",
-              "products/ops",
-              "products/removemycontent"
-            ]
-          },
-          {
-            "group": "AI Technology",
-            "pages": [
-              "ai-strategy/manager-ai",
-              "ai-strategy/integrity-ai"
-            ]
-          },
-          {
-            "group": "Resources",
-            "pages": [
-              "resources/faq",
-              "resources/glossary"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Company",
-        "groups": [
-          {
-            "group": "About Us",
-            "pages": [
-              "company/mdly-holding",
-              "company/roadmap"
-            ]
-          },
-          {
-            "group": "Strategy",
-            "pages": [
-              "strategy/moat",
-              "company/gtm"
-            ]
-          },
-          {
-            "group": "Trust & Security",
-            "pages": [
-              "company/security",
-              "company/architecture"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "For Investors",
-        "groups": [
-          {
-            "group": "Investment Opportunity",
-            "pages": [
-              "investors/overview"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Request Metrics",
-          "href": "/investors/overview",
-          "icon": "chart-line"
-        },
-        {
-          "anchor": "Contact Us",
-          "href": "mailto:investors@modelty.app",
-          "icon": "envelope"
-        }
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://modelty.app"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Schedule Call",
+    "url": "https://cal.com/modelty/investor-call"
+  },
+  "primaryTab": {
+    "name": "Documentation"
+  },
+  "tabs": [
+    {
+      "name": "For Investors",
+      "url": "investors"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Request Metrics",
+      "icon": "chart-line",
+      "url": "https://modelty.app/investors"
+    },
+    {
+      "name": "Contact",
+      "icon": "envelope",
+      "url": "mailto:investors@modelty.app"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://x.com/modelty"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://linkedin.com/company/modelty"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "group": "Products",
+      "pages": [
+        "products/overview",
+        "products/oruon",
+        "products/ops",
+        "products/removemycontent"
+      ]
+    },
+    {
+      "group": "AI Technology",
+      "pages": [
+        "ai-strategy/manager-ai",
+        "ai-strategy/integrity-ai"
+      ]
+    },
+    {
+      "group": "Company",
+      "pages": [
+        "company/mdly-holding",
+        "company/roadmap",
+        "company/gtm"
+      ]
+    },
+    {
+      "group": "Trust & Security",
+      "pages": [
+        "company/security",
+        "company/architecture"
+      ]
+    },
+    {
+      "group": "Strategy",
+      "pages": [
+        "strategy/moat"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/faq",
+        "resources/glossary"
       ]
     }
+  ],
+  "footerSocials": {
+    "twitter": "https://x.com/modelty",
+    "linkedin": "https://linkedin.com/company/modelty",
+    "website": "https://modelty.app"
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Investors",
-        "href": "/investors/overview"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Schedule Call",
-      "href": "https://cal.com/modelty/investor-call"
+  "backgroundImage": "/images/background.png",
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/modelty",
-      "linkedin": "https://linkedin.com/company/modelty"
-    }
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": true
   }
 }

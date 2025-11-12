@@ -1,0 +1,12 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "For Investors",
+  "navigation": [
+    {
+      "group": "Investment Opportunity",
+      "pages": [
+        "investors/overview"
+      ]
+    }
+  ]
+}

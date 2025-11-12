@@ -11,26 +11,16 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Platform",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Getting Started",
             "pages": [
               "index"
             ]
           },
           {
-            "group": "Company",
-            "pages": [
-              "company/mdly-holding",
-              "company/roadmap",
-              "company/security",
-              "company/architecture",
-              "company/gtm"
-            ]
-          },
-          {
-            "group": "Product Suite",
+            "group": "Products",
             "pages": [
               "products/overview",
               "products/oruon",
@@ -39,22 +29,10 @@
             ]
           },
           {
-            "group": "AI Strategy",
+            "group": "AI Technology",
             "pages": [
               "ai-strategy/manager-ai",
               "ai-strategy/integrity-ai"
-            ]
-          },
-          {
-            "group": "Strategy",
-            "pages": [
-              "strategy/moat"
-            ]
-          },
-          {
-            "group": "For Investors",
-            "pages": [
-              "investors/overview"
             ]
           },
           {
@@ -62,6 +40,43 @@
             "pages": [
               "resources/faq",
               "resources/glossary"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Company",
+        "groups": [
+          {
+            "group": "About Us",
+            "pages": [
+              "company/mdly-holding",
+              "company/roadmap"
+            ]
+          },
+          {
+            "group": "Strategy",
+            "pages": [
+              "strategy/moat",
+              "company/gtm"
+            ]
+          },
+          {
+            "group": "Trust & Security",
+            "pages": [
+              "company/security",
+              "company/architecture"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Investors",
+        "groups": [
+          {
+            "group": "Investment Opportunity",
+            "pages": [
+              "investors/overview"
             ]
           }
         ]

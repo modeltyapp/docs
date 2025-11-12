@@ -1,68 +1,67 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Modelty Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#5B21B6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Company",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "company/mdly-holding",
+              "company/roadmap",
+              "company/security",
+              "company/architecture",
+              "company/gtm"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Product Suite",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "products/overview",
+              "products/oruon",
+              "products/ops",
+              "products/removemycontent"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "AI Strategy",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "ai-strategy/manager-ai",
+              "ai-strategy/integrity-ai"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Strategy",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "strategy/moat"
+            ]
+          },
+          {
+            "group": "For Investors",
+            "pages": [
+              "investors/overview"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "resources/faq",
+              "resources/glossary"
             ]
           }
         ]
@@ -71,14 +70,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Request Metrics",
+          "href": "/investors/overview",
+          "icon": "chart-line"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Contact Us",
+          "href": "mailto:investors@modelty.app",
+          "icon": "envelope"
         }
       ]
     }
@@ -90,33 +89,29 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Investors",
+        "href": "/investors/overview"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Schedule Call",
+      "href": "https://cal.com/modelty/investor-call"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/modelty",
+      "linkedin": "https://linkedin.com/company/modelty"
     }
   }
 }

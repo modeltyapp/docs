@@ -1,424 +1,314 @@
 ---
 title: Integrity AI (RemoveMyContent)
-description: AI-powered content protection and leak detection
+description: AI-powered content protection that safeguards creator revenue
 ---
 
-# Integrity AI (RemoveMyContent)
-
-**Goal:** Reduce incidents and accelerate takedowns through intelligent content protection.
-
----
-
-## Overview
-
-Integrity AI powers the **RemoveMyContent (Vault)** product, providing automated content protection through perceptual hashing, similarity matching, and evidence generation. The system is designed with privacy-first principles and responsible AI practices.
-
----
-
-## Core Methods
-
-### Perceptual Hashing
-
-<CardGroup cols={2}>
-  <Card title="Robust Fingerprinting" icon="fingerprint">
-    Creates unique signatures that survive crops, filters, and compression
-  </Card>
-  <Card title="Variant Detection" icon="clone">
-    Identifies modified versions through similarity algorithms
-  </Card>
-  <Card title="Multi-Format Support" icon="file">
-    Images, video, and soon short-form video content
-  </Card>
-  <Card title="Scalable Matching" icon="magnifying-glass">
-    Efficient similarity search across billions of items
-  </Card>
-</CardGroup>
-
----
-
-### Similarity Search
-
-<Tabs>
-  <Tab title="Exact Matches">
-    **Perfect duplicates:**
-    - Identical hash values
-    - 100% confidence score
-    - Immediate high-risk classification
-    - Automated evidence pack generation
-  </Tab>
-
-  <Tab title="Near Matches">
-    **Modified versions:**
-    - Hash similarity above threshold
-    - Confidence score 70-99%
-    - Human review recommended
-    - Contextual analysis required
-  </Tab>
-
-  <Tab title="Potential Matches">
-    **Possible variants:**
-    - Hash similarity below threshold
-    - Confidence score 50-69%
-    - Optional human review
-    - Low-priority investigation
-  </Tab>
-</Tabs>
-
----
-
-### Evidence Packs
-
-<Steps>
-  <Step title="Match Detection">
-    System identifies unauthorized content distribution
-  </Step>
-  <Step title="Evidence Collection">
-    Automated gathering of:
-    - Original content proof
-    - Timestamp documentation
-    - Source URLs and screenshots
-    - Hash comparison data
-    - Ownership verification
-  </Step>
-  <Step title="Package Assembly">
-    Formats evidence for platform-specific takedown requirements
-  </Step>
-  <Step title="Quality Check">
-    Validates evidence completeness and legal sufficiency
-  </Step>
-  <Step title="Delivery">
-    Provides ready-to-submit package with filing instructions
-  </Step>
-</Steps>
-
----
-
-## Future Capabilities
-
-### Short-Form Video (In Development)
-
-<Accordion title="Technical Challenges">
-  - High frame rate and resolution variations
-  - Audio synchronization and dubbing
-  - Platform-specific filters and effects
-  - Compression artifacts
-  - Partial clip extraction
-</Accordion>
-
-<Accordion title="Approach">
-  - Multi-frame perceptual hashing
-  - Audio fingerprinting
-  - Scene detection and segmentation
-  - Temporal consistency analysis
-  - Platform-specific normalization
-</Accordion>
-
-<Accordion title="Expected Timeline">
-  - **Q4 2025:** Alpha testing with select creators
-  - **Q1 2026:** Private beta expansion
-  - **Q2 2026:** General availability
-</Accordion>
-
-### Pre-Publish Checks
-
-<Accordion title="Authenticity Verification">
-  Check content against database before posting to verify:
-  - Original ownership
-  - Usage rights
-  - Prior distribution
-  - Licensing status
-</Accordion>
-
-<Accordion title="Risk Assessment">
-  Pre-publication analysis of:
-  - Leak probability
-  - Protection recommendations
-  - Watermarking suggestions
-  - Distribution strategy
-</Accordion>
-
-### Authenticity Certificates
-
-<Accordion title="Hash-Based Proof">
-  Cryptographic certificates that prove:
-  - Original creation timestamp
-  - Creator identity (privacy-preserving)
-  - Content integrity
-  - Chain of custody
-</Accordion>
-
-<Accordion title="Use Cases">
-  - Platform verification
-  - Legal proceedings
-  - Licensing negotiations
-  - Portfolio authentication
-  - NFT metadata
-</Accordion>
-
----
-
-## Guardrails
-
-### Hash-First Processing
-
-<Warning>
-**Privacy protection:**
-- Content converted to perceptual hashes immediately
-- Full files not retained when hashing is sufficient
-- Original content stored only with explicit consent
-- Minimal data retention policies
-</Warning>
-
-### Consent Requirements
-
-<CardGroup cols={2}>
-  <Card title="Facial Recognition" icon="face-smile">
-    **Explicit consent required** for any facial recognition features
-  </Card>
-  <Card title="Biometric Data" icon="fingerprint">
-    **Opt-in only** for biometric content analysis
-  </Card>
-  <Card title="Advanced Detection" icon="radar">
-    **Clear disclosure** for AI-powered monitoring scope
-  </Card>
-  <Card title="Data Retention" icon="clock">
-    **User control** over how long data is retained
-  </Card>
-</CardGroup>
-
-### GDPR Alignment
-
-<Accordion title="Data Minimization">
-  Collect only what's necessary for protection; hashes preferred over full content.
-</Accordion>
-
-<Accordion title="Purpose Limitation">
-  Data used solely for content protection; no secondary uses without consent.
-</Accordion>
-
-<Accordion title="Storage Limitation">
-  Retention periods aligned with legal requirements; automatic deletion after monitoring ends.
-</Accordion>
-
-<Accordion title="User Rights">
-  Full access, portability, and deletion rights for all stored data.
-</Accordion>
-
----
-
-## Performance Metrics
-
-### Detection Accuracy
+# Integrity AI: Content Protection
 
 <Info>
-**Public metrics:**
-- High precision for exact matches
-- Variable recall depending on content type
-- False positive rate minimization
-- Continuous improvement through feedback
+**The business case:** Automated content protection that scales infinitely while reducing revenue loss from leaks and piracy.
 </Info>
 
-<Warning>
-**Detailed performance metrics available under NDA:**
-- Precision/recall by content type
-- False positive/negative rates
-- Detection latency statistics
-- Platform-specific success rates
-- Takedown timeline averages
-</Warning>
+## The Problem
 
-### System Capabilities
+Content leaks cost creators 20-40% of potential revenue. Manual monitoring is impossible at scale, and takedowns are slow and reactive. **Integrity AI changes the game.**
+
+### Market Opportunity
+
+<CardGroup cols={3}>
+  <Card title="Revenue Protection" icon="shield-dollar">
+    **Recoverable losses**
+
+    Billions in creator revenue lost to piracy annually - massive TAM for protection solutions
+  </Card>
+  <Card title="Scale Challenge" icon="infinity">
+    **Impossible manually**
+
+    Monitoring millions of sites and platforms requires automation - humans can't scale
+  </Card>
+  <Card title="Speed Matters" icon="bolt">
+    **Time is money**
+
+    Every hour content remains leaked = lost revenue. Automated detection and response are critical
+  </Card>
+</CardGroup>
+
+---
+
+## How It Creates Value
+
+### For Creators
 
 <Tabs>
-  <Tab title="Scale">
-    - Millions of hashes monitored
-    - Billions of comparisons daily
-    - Sub-second matching times
-    - Global coverage
+  <Tab title="Revenue Protection">
+    **Minimize leak impact**
+    - Early detection reduces revenue loss
+    - Automated evidence gathering speeds takedowns
+    - Enforcement tracking shows ROI
+    - Prevention strategies based on patterns
   </Tab>
 
-  <Tab title="Accuracy">
-    - High confidence thresholds
-    - Human review for edge cases
-    - Continuous tuning
-    - Platform-specific optimizations
+  <Tab title="Peace of Mind">
+    **24/7 monitoring**
+    - Continuous surveillance across platforms
+    - Immediate alerts for high-risk leaks
+    - Guided enforcement actions
+    - Clear documentation for legal needs
   </Tab>
 
-  <Tab title="Speed">
-    - Real-time detection
-    - Rapid evidence generation
-    - Automated workflows
-    - Priority escalation
+  <Tab title="Time Savings">
+    **Automation at scale**
+    - No manual content searching required
+    - Automated evidence pack generation
+    - Streamlined takedown workflows
+    - Performance dashboards
   </Tab>
 </Tabs>
 
----
+### For Modelty
 
-## Technology Stack
+<CardGroup cols={2}>
+  <Card title="Premium Value Prop" icon="gem">
+    **Differentiated offering**
 
-### Hashing Infrastructure
+    Protection drives premium pricing and conversion - creators will pay for proven revenue protection
+  </Card>
+  <Card title="Retention Lock-In" icon="lock">
+    **Hard to leave**
 
-<Accordion title="Perceptual Hash Algorithms">
-  - pHash (perceptual hash) for images
-  - Video fingerprinting for motion content
-  - Audio fingerprinting for sound matching
-  - Custom algorithms for platform-specific content
-</Accordion>
+    Library of fingerprinted content and enforcement history create high switching costs
+  </Card>
+  <Card title="Expansion Revenue" icon="arrow-trend-up">
+    **Tiered pricing**
 
-<Accordion title="Similarity Search">
-  - Vector databases for efficient matching
-  - Approximate nearest neighbor search
-  - Distributed processing for scale
-  - Real-time indexing updates
-</Accordion>
+    More content = higher tier = expansion revenue as creators grow
+  </Card>
+  <Card title="B2B Opportunity" icon="building">
+    **Platform partnerships**
 
-<Accordion title="Storage Architecture">
-  - Cloudflare R2 for media vault
-  - MongoDB for metadata and configs
-  - Separate cold storage for evidence
-  - Regional distribution for compliance
-</Accordion>
-
-### Evidence Collection
-
-<Accordion title="Browser Automation">
-  - Proof-of-concept for screenshot capture
-  - URL archival and validation
-  - Metadata extraction
-  - Source verification
-</Accordion>
-
-<Accordion title="Documentation">
-  - Template-based evidence formatting
-  - Platform-specific requirements
-  - Legal compliance checking
-  - Multi-language support
-</Accordion>
+    Agencies and platforms need integrity solutions - white-label potential
+  </Card>
+</CardGroup>
 
 ---
 
-## Responsible AI Principles
+## How It Works
 
-### What We Do
+### Detection & Response
 
 <Steps>
-  <Step title="Hash-First">
-    Convert content to perceptual hashes for privacy-preserving matching
+  <Step title="Content Fingerprinting">
+    **Create unique signatures**
+
+    Upload original content → system creates perceptual fingerprints that survive modifications (crops, filters, compression)
   </Step>
-  <Step title="Explicit Consent">
-    Require clear opt-in for advanced features like facial recognition
+  <Step title="Continuous Monitoring">
+    **Automated surveillance**
+
+    AI monitors platforms and sites → detects unauthorized copies → assigns risk scores
   </Step>
-  <Step title="Purpose Limitation">
-    Use data solely for creator protection, no secondary purposes
+  <Step title="Evidence Generation">
+    **Instant documentation**
+
+    Match detected → system auto-generates evidence pack with timestamps, screenshots, and proof of ownership
   </Step>
-  <Step title="Transparency">
-    Disclose methods and provide audit trails
-  </Step>
-  <Step title="User Control">
-    Enable full data export and deletion
+  <Step title="Guided Enforcement">
+    **Streamlined takedowns**
+
+    Creator receives alert + evidence + filing instructions → faster enforcement
   </Step>
 </Steps>
 
-### What We Don't Do
+---
 
-- ❌ **No unauthorized facial recognition**
-- ❌ **No indefinite data retention**
-- ❌ **No third-party data selling**
-- ❌ **No invasive monitoring without consent**
-- ❌ **No opaque "black box" algorithms**
+## Trust & Safety
+
+### Privacy-First Approach
+
+<CardGroup cols={3}>
+  <Card title="Hash-First" icon="fingerprint">
+    **Minimal data storage**
+
+    Content converted to fingerprints - originals stored only with consent
+  </Card>
+  <Card title="Consent Required" icon="hand">
+    **No surprises**
+
+    Advanced features like facial recognition require explicit opt-in
+  </Card>
+  <Card title="User Control" icon="sliders">
+    **Full transparency**
+
+    Complete data export and deletion capabilities
+  </Card>
+</CardGroup>
+
+### Responsible AI
+
+<AccordionGroup>
+  <Accordion title="Accuracy Focus">
+    **Minimize false positives**
+
+    High confidence thresholds and human review for edge cases prevent wrongful takedowns
+  </Accordion>
+
+  <Accordion title="Ethical Boundaries">
+    **Clear limitations**
+
+    No invasive monitoring without consent. GDPR-compliant retention. Purpose-limited data use.
+  </Accordion>
+
+  <Accordion title="Audit Trails">
+    **Complete transparency**
+
+    Every detection, evidence pack, and takedown is logged for accountability
+  </Accordion>
+</AccordionGroup>
 
 ---
 
-## Roadmap
+## Business Impact
 
-### Near-Term (Q4 2025 - Q1 2026)
+### Measured Outcomes
 
-- Short-form video fingerprinting (alpha)
-- Reviewer UI improvements
-- Partner API (read-only)
-- Integrity score dashboard
+<Info>
+**Documented performance:**
+- Detection accuracy for protected content
+- Average takedown completion time
+- Revenue protection ROI
+- Creator satisfaction scores
+</Info>
 
-### Mid-Term (Q2-Q3 2026)
+### Why This Matters for Investors
 
-- Pre-publish authenticity checks
-- Optional watermarking
-- Authenticity certificates
-- Multi-platform monitoring expansion
+<CardGroup cols={2}>
+  <Card title="Premium Pricing" icon="coins">
+    **Willingness to pay**
 
-### Long-Term (H2 2026+)
+    Proven revenue protection justifies premium pricing - higher ARPU vs. wallet-only
+  </Card>
+  <Card title="Sticky Product" icon="magnet">
+    **High retention**
 
-- Real-time video streaming detection
-- AI-generated content detection
-- Deepfake identification
-- Platform partnerships for proactive protection
+    Fingerprinted libraries and enforcement history create switching costs
+  </Card>
+  <Card title="Scalable Economics" icon="chart-line">
+    **Improving margins**
 
----
+    AI-powered automation = constant cost per user as we scale
+  </Card>
+  <Card title="Market Position" icon="trophy">
+    **First-mover advantage**
 
-## Privacy & Compliance
-
-### Data Handling
-
-<Tabs>
-  <Tab title="What We Store">
-    - Perceptual hashes (preferred)
-    - Original content (with explicit consent)
-    - Upload metadata and timestamps
-    - Detection matches and evidence
-    - Takedown requests and outcomes
-  </Tab>
-
-  <Tab title="Retention Policy">
-    - Active monitoring: Duration of user subscription
-    - Deleted content: Hashes removed immediately
-    - Evidence: Legal compliance periods only
-    - Audit logs: Regulatory minimum retention
-  </Tab>
-
-  <Tab title="User Rights">
-    - Right to access all data
-    - Right to delete content/hashes
-    - Right to export evidence
-    - Right to opt out of features
-  </Tab>
-</Tabs>
-
-### Regional Compliance
-
-- **GDPR** (EU): Full compliance with data protection regulation
-- **CCPA** (California): Consumer privacy rights respected
-- **Other regions:** Adaptive compliance based on local requirements
+    Building enforcement history and partnerships now creates moats
+  </Card>
+</CardGroup>
 
 ---
 
 ## Competitive Advantage
 
-<Tip>
-**Unique positioning:**
+### What Makes Our Solution Different
 
-- **Privacy-first:** Hash-first approach minimizes data exposure
-- **Integrated protection:** Works with wallet and ops for holistic security
-- **Responsible AI:** Transparent methods with strong guardrails
-- **Evidence quality:** Legally-sufficient documentation for enforcement
-- **System of record:** Becomes authoritative source for content lineage
-</Tip>
+<AccordionGroup>
+  <Accordion title="Integrated Ecosystem">
+    **Connected to money**
+
+    We uniquely know creator earnings → can quantify leak impact and protection ROI. Standalone tools can't.
+  </Accordion>
+
+  <Accordion title="AI + Human">
+    **Balanced approach**
+
+    Automated detection with human oversight for enforcement decisions. Pure automation creates legal risks; pure manual doesn't scale.
+  </Accordion>
+
+  <Accordion title="Evidence Quality">
+    **Legal-grade documentation**
+
+    Automatically generated evidence packs meet takedown requirements - not just "we found something."
+  </Accordion>
+
+  <Accordion title="Privacy Leadership">
+    **Trust-first design**
+
+    Hash-first, consent-based approach differentiates us in an industry with poor privacy reputation.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
-## For Investors
+## Roadmap
 
-Detailed Integrity AI metrics available under NDA:
-- Detection precision/recall by content type
-- False positive/negative analysis
-- Platform-specific takedown success rates
-- Average detection and resolution timelines
-- Technology stack and infrastructure costs
-- Roadmap confidence and risk assessment
+### Current Capabilities (Nov 2025)
+
+- Image fingerprinting and matching
+- Basic video detection
+- Evidence pack generation
+- Risk scoring and triage
+- Takedown workflow guidance
+
+### Near-Term Enhancements (Q1-Q2 2026)
+
+- Short-form video (TikTok, Reels, Shorts)
+- Partner API for platform integrations
+- Integrity score dashboard
+- Bulk library upload
+- Enhanced reviewer tools
+
+### Future Vision (H2 2026+)
+
+- Pre-publish authenticity checks
+- Optional watermarking
+- Authenticity certificates (blockchain-backed)
+- Real-time video streaming detection
+- AI-generated content verification
+
+---
+
+## Market Dynamics
+
+### Total Addressable Market
+
+<Card title="Creator Economy Protection" icon="shield-dollar">
+  **Massive and growing**
+
+  - $100B+ global creator economy
+  - 20-40% revenue lost to piracy
+  - $20-40B annual protection opportunity
+  - Currently <1% penetrated by automated solutions
+
+  **Our positioning:** Premium protection for mid-high earning creators ($1K-50K/month) with high-value content
+</Card>
+
+### B2B Expansion
+
+<CardGroup cols={2}>
+  <Card title="Agency White-Label" icon="building">
+    **Multi-creator management**
+
+    Agencies managing 10-100+ creators need protection at scale - high ACV opportunity
+  </Card>
+  <Card title="Platform Partnerships" icon="handshake">
+    **Integrity infrastructure**
+
+    Content platforms need authenticity and protection tools - strategic partnership potential
+  </Card>
+</CardGroup>
+
+---
+
+## Performance Metrics
+
+<Warning>
+**For qualified investors:** Detailed Integrity AI metrics including detection accuracy, false positive rates, takedown success rates, revenue protection ROI, and technology roadmap available under NDA.
+</Warning>
 
 <Card
-  title="Request Integrity Metrics"
+  title="Request Protection Performance Data"
   icon="chart-line"
   href="/investors/overview"
   horizontal
 >
-  Access detailed AI protection performance data under NDA
+  Access detailed metrics on Integrity AI effectiveness, accuracy rates, and business impact
 </Card>

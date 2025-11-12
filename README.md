@@ -1,16 +1,49 @@
-# Mintlify Starter Kit
+# Modelty Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+**Investor-facing documentation** for Modelty's wallet-first creator platform.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This repository contains comprehensive documentation for:
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+- **Company Information** — MDLY Holding, roadmap, security, architecture
+- **Product Suite** — Oruon (wallet), Ops (AI), RemoveMyContent (vault)
+- **AI Strategy** — Manager AI and Integrity AI approaches
+- **Strategy & Moat** — Competitive advantages and lock-in analysis
+- **Investor Resources** — Metrics access and contact information
+- **Resources** — FAQ and glossary
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## 🌐 Live Documentation
+
+Visit the live documentation at: **[docs.modelty.app](https://docs.modelty.app)** *(configure your actual domain)*
+
+## 📁 Documentation Structure
+
+```
+docs/
+├── index.mdx                    # Homepage with overview
+├── company/                     # Company information
+│   ├── mdly-holding.mdx        # Corporate structure
+│   ├── roadmap.mdx             # Timeline and roadmap
+│   ├── security.mdx            # Security & compliance
+│   ├── architecture.mdx        # Technical architecture
+│   └── gtm.mdx                 # Go-to-market strategy
+├── products/                    # Product documentation
+│   ├── overview.mdx            # Product suite overview
+│   ├── oruon.mdx               # Oruon wallet
+│   ├── ops.mdx                 # Ops (Sasha) AI
+│   └── removemycontent.mdx     # Vault & protection
+├── ai-strategy/                 # AI approach
+│   ├── manager-ai.mdx          # Manager AI (Ops)
+│   └── integrity-ai.mdx        # Integrity AI (Vault)
+├── strategy/                    # Strategic analysis
+│   └── moat.mdx                # Competitive moat
+├── investors/                   # Investor resources
+│   └── overview.mdx            # Metrics & contact
+├── resources/                   # Additional resources
+│   ├── faq.mdx                 # Frequently asked questions
+│   └── glossary.mdx            # Terms and definitions
+└── assets/                      # Images and media
+    └── README.md               # Asset specifications
+```
 
 ## Development
 

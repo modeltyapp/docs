@@ -1,76 +1,128 @@
-# Modelty Documentation
+---
+description: Wallet-first creator platform by MDLY Holding. Oruon (flagship), Ops (Sasha), and RemoveMyContent (Vault) compound lock-in and LTV with privacy by design.
+---
 
-**Investor-facing documentation** for Modelty's wallet-first creator platform.
+# 👋 Modelty: The Creator System of Record
 
-This repository contains comprehensive documentation for:
+> **Wallet-first platform** donde los creadores **operan, protegen y monetizan** — todo en un solo lugar.
 
-- **Company Information** — MDLY Holding, roadmap, security, architecture
-- **Product Suite** — Oruon (wallet), Ops (AI), RemoveMyContent (vault)
-- **AI Strategy** — Manager AI and Integrity AI approaches
-- **Strategy & Moat** — Competitive advantages and lock-in analysis
-- **Investor Resources** — Metrics access and contact information
-- **Resources** — FAQ and glossary
+## Nuestra Plataforma
 
-## 🌐 Live Documentation
+Combinamos tres productos que crean un **flywheel compuesto** de valor:
 
-Visit the live documentation at: **[docs.modelty.app](https://docs.modelty.app)** *(configure your actual domain)*
+### 🟣 Oruón - Flagship Fintech Wallet
+**Billetera de fintech para creadores**
 
-## 📁 Documentation Structure
+Balances, splits, statements, payouts, y FX
 
-```
-docs/
-├── index.mdx                    # Homepage with overview
-├── company/                     # Company information
-│   ├── mdly-holding.mdx        # Corporate structure
-│   ├── roadmap.mdx             # Timeline and roadmap
-│   ├── security.mdx            # Security & compliance
-│   ├── architecture.mdx        # Technical architecture
-│   └── gtm.mdx                 # Go-to-market strategy
-├── products/                    # Product documentation
-│   ├── overview.mdx            # Product suite overview
-│   ├── oruon.mdx               # Oruon wallet
-│   ├── ops.mdx                 # Ops (Sasha) AI
-│   └── removemycontent.mdx     # Vault & protection
-├── ai-strategy/                 # AI approach
-│   ├── manager-ai.mdx          # Manager AI (Ops)
-│   └── integrity-ai.mdx        # Integrity AI (Vault)
-├── strategy/                    # Strategic analysis
-│   └── moat.mdx                # Competitive moat
-├── investors/                   # Investor resources
-│   └── overview.mdx            # Metrics & contact
-├── resources/                   # Additional resources
-│   ├── faq.mdx                 # Frequently asked questions
-│   └── glossary.mdx            # Terms and definitions
-└── assets/                      # Images and media
-    └── README.md               # Asset specifications
-```
+[Ver más →](products/oruon.md)
 
-## Development
+### 🟢 Ops (Sasha) - Operations AI
+**IA de Operaciones**
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+Playbooks, nudges, y respuestas inteligentes
 
-```
-npm i -g mint
-```
+[Ver más →](products/ops.md)
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+### 🟡 Vault - Content Protection
+**Protección de Contenido**
 
-```
-mint dev
-```
+Integrity checks y takedowns (Private Beta)
 
-View your local preview at `http://localhost:3000`.
+[Ver más →](products/removemycontent.md)
 
-## Publishing changes
+---
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+## La Propuesta de Valor
 
-## Need help?
+Juntos forman: **dinero → operaciones → integridad → más dinero** — un **sistema de registro** privacy-first que es difícil de reemplazar.
 
-### Troubleshooting
+{% hint style="info" %}
+**Para inversores:** Métricas sensibles, cohortes detalladas y unit economics están disponibles bajo NDA. [Solicitar acceso →](investors/overview.md)
+{% endhint %}
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+---
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+## Enlaces Rápidos
+
+* 🏢 [MDLY Holding](company/mdly-holding.md) - Estructura corporativa y gobierno
+* 📦 [Suite de Productos](products/overview.md) - Explora Oruon, Ops, y RemoveMyContent
+* 📈 [Para Inversores](investors/overview.md) - Solicita métricas y agenda una llamada
+
+---
+
+## Resumen de Productos
+
+### Oruón — Creator Fintech Wallet (Flagship)
+
+**Una wallet para ganar, dividir y retirar — privada y compliant.**
+
+Oruon ancla la actividad diaria, habilita payouts compliant, y centraliza la historia financiera del creador.
+
+→ [Learn more about Oruon](products/oruon.md)
+
+### Ops (Sasha) — Creator Operations AI
+
+**Tu co-pilot de operaciones.**
+
+Playbooks personalizados, nudges, y smart replies que aumentan RPM/ARPU y reducen la carga de soporte.
+
+→ [Learn more about Ops](products/ops.md)
+
+### RemoveMyContent — Vault & Takedowns (Private Beta)
+
+**Protege lo que ganas.**
+
+Vault privado para originales canónicos, perceptual hashes, matching de leaks sospechosos, y paquetes de evidencia.
+
+→ [Learn more about Vault](products/removemycontent.md)
+
+---
+
+## Estrategia de IA
+
+* 🤖 [Manager AI](ai-strategy/manager-ai.md) - Aumenta ganancias de creadores y reduce carga de soporte
+* 🔐 [Integrity AI](ai-strategy/integrity-ai.md) - Reduce incidentes y acelera takedowns
+
+---
+
+## Moat & Lock-In
+
+{% hint style="success" %}
+**Resumen ejecutivo:** Modelty crea **lock-in natural y ético** al convertirse en el **sistema de registro** para **dinero (Oruon)**, **media & pruebas (Vault)**, y **ejecución diaria (Ops)**.
+{% endhint %}
+
+→ [Understanding our competitive moat](strategy/moat.md)
+
+---
+
+## Información de la Empresa
+
+* 📅 [Roadmap & Timeline](company/roadmap.md) - Planes de desarrollo trimestrales
+* 🛡️ [Security & Compliance](company/security.md) - Prácticas de seguridad y privacidad
+* 🏗️ [Architecture](company/architecture.md) - Arquitectura técnica de alto nivel
+* 🚀 [Go-To-Market](company/gtm.md) - Estrategia de monetización y crecimiento
+
+---
+
+## Tracción & Crecimiento
+
+| Métrica | Resultado |
+|---------|-----------|
+| 🧲 **Eficiencia de Adquisición** | **Single-digit cents** cost-per-lead (~6× por debajo del promedio de fintech LATAM) |
+| 📈 **Calidad de Conversión** | **Share significativo** de usuarios activados monetizan |
+| 🔁 **Drivers de Retención** | **Wallet habit loop** crea engagement diario |
+| ⚡ **Perfil Operativo** | **Margen blended atractivo** (SaaS + Fintech + Platform) |
+
+{% hint style="warning" %}
+📊 **Request Detailed Metrics**: Para inversores calificados — Accede a cohort economics, trayectorias ARPU, CAC/Payback, y unit economics detallados bajo NDA
+
+→ [Solicitar métricas](investors/overview.md)
+{% endhint %}
+
+---
+
+## Recursos Adicionales
+
+* ❓ [FAQ](resources/faq.md) - Preguntas frecuentes
+* 📖 [Glosario](resources/glossary.md) - Términos y definiciones clave
